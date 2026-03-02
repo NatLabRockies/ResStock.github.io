@@ -90,7 +90,7 @@ Below are some frequently asked questions (FAQ) about ResStock. The questions ar
 
 <details>
     <summary>What is the timezone of the timestamps?</summary>
-    <p>The timestamps of all load profiles have been converted to Eastern Standard Time, to prevent issues when aggregating across time zones. The underlying modeling was conducted using local standard time for each location, with occupant schedules adjusted for daylight savings as applicable. All EnergyPlus timeseries outputs were converted from local standard time to Eastern Standard Time for publication in the web Data Viewer, Data Viewer exports, timeseries aggregates, and individual timeseries parquet files. In converting from local Standard Time to Eastern Standard Time, if necessary the last few hours of each dataset were moved to the beginning of the timeseries. For example, the first two hours of data from Colorado in Eastern Standard Time (Jan 1, midnight to 2 AM) were originally modeled as the last two hours of the year in Mountain Standard Time (Dec 31, 10 PM to midnight) using the corresponding weather.</p>
+    <p>The timestamps of all load profiles have been converted to Eastern Standard Time, to prevent issues when aggregating across time zones. The underlying modeling was conducted using local standard time for each location, with occupant schedules adjusted for daylight savings as applicable. All EnergyPlus timeseries outputs were converted from local standard time to Eastern Standard Time for publication in the web Data Viewer, Data Viewer exports, timeseries aggregates, and individual timeseries parquet files. In converting from local Standard Time to Eastern Standard Time, if necessary the last few hours of each dataset were moved to the beginning of the timeseries. For example, the first two hours of data from Colorado in Eastern Standard Time (Jan 1, midnight to 2 AM) were originally modeled as the last two hours of the year in Mountain Standard Time (Dec 31, 10 PM to midnight) using the corresponding weather. For leap years (e.g., 2012), the two hours come from Dec 31 regardless of whether the data is 365 or 366 days. Please see the <i>How are leap years modeled?</i> FAQ for more info.</p>
 </details>
 
 <details>
@@ -146,6 +146,26 @@ file.to_csv(os.path.join(folder_path, file_name+new_suffix), index = False)
     <p>To download a few results by IDs, you can use a manual approach. First use the metadata_and_annual_results to find the IDs you want to access. Then, note the download URL for any easy-to-access ID and edit it to reflect the ID you want. 
     
     For example, right clicking on the first ID under ResStock dataset 2022.1.1, AMY 2018, upgrade 02, and choosing “copy link” provides this URL <a href="https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2022/resstock_amy2018_release_1.1/timeseries_individual_buildings/by_state/upgrade=2/state=WA/100025-2.parquet">https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2022/resstock_amy2018_release_1.1/timeseries_individual_buildings/by_state/upgrade=2/state=WA/100025-2.parquet</a>. To access ID 813 instead of 100025, change the “100025-2” to “813-2” in the URL, and paste it into a web browser. That will download the data for ID 813.</p>
+</details>
+
+<details>
+    <summary>How can I use AWS Athena to query ComStock and ResStock datasets?</summary>
+    <p>Sample queries showing how to create prompts for different ComStock questions are available in the "<a href="https://natlabrockies.github.io/ComStock.github.io/docs/resources/how_to_guides/aws_athena_queries.html">AWS Athena Queries</a>" how-to guide. These examples can be easily adapted to ResStock datasets.</p>
+    <p>A <a href="https://www.youtube.com/watch?v=qSR1MFpSiro">training video</a> on how to load ComStock and ResStock data into AWS Athena is also available.</p>
+</details>
+
+<details>
+    <summary>What pre-aggregated timeseries data are available on the Open Energy Data Initiative (OEDI) data lake?</summary>
+    <p>Pre-aggregated timeseries data are available in the "timeseries_aggregates" directory on OEDI and are provided for multiple geographic levels:</p>
+    <ul>
+        <li>ASHRAE/IECC climate zone</li>
+        <li>Building America climate zone</li>
+        <li>ISO/RTO region</li>
+        <li>State</li>
+    </ul>
+    <p>The data are further disaggregated into separate files by dwelling type.</p>
+    <p>These files provide aggregate, weighted, subhourly end-use energy data by fuel type for all ResStock models that meet the specified criteria. For example, the file <b>up00-co-mobile_home</b> contains aggregate end use load profiles for all mobile homes in Colorado.</p>
+    <p>Each file also includes "models_used" and "units_represented" columns, which indicate the number of ResStock models represented and the associated weighted number of units, respectively.</p>
 </details>
 
 ## Data Viewer
@@ -259,6 +279,7 @@ file.to_csv(os.path.join(folder_path, file_name+new_suffix), index = False)
 <details>
     <summary>Where can I find information about input data sources, modeling methodology, and assumptions?</summary>
     <p>ResStock reference documentation is available in the Published Datasets section of the <a href="{{  site.baseurl  }}{% link docs/data.md %}">Data page</a>. This includes baseline and upgrade measure information. We generally publish an updated version with every dataset release.</p>
+    <p>Upgrade measure documentation is also available on the <a href="{{  site.baseurl  }}{% link docs/data.md %}">Data page.</a></p>
 </details>
 
 <details>
@@ -278,7 +299,9 @@ file.to_csv(os.path.join(folder_path, file_name+new_suffix), index = False)
 
 <details>
     <summary>How are leap years modeled?</summary>
-    <p>ResStock models every day of the year, including for leap years. The results for leap years (ie AMY2012 weather) therefore span 8784 hours, and are generated using weather files that contain 8784 hours. Here is the relevant <a href="https://openstudio-hpxml.readthedocs.io/en/latest/workflow_inputs.html#id4">OS-HPXML documentation</a>.</p>
+    <p>ResStock results using leap year weather are generated using weather files that contain 8784 hours.</p>
+    <p>Starting in ResStock 2025 Release 1, ResStock datasets are all 365 days. For datasets generated using leap year weather (i.e., AMY 2012), the dataset starts on January 1, includes February 29, and ends on December 30 instead of December 31. However, data from December 31 simulations are used when converting data into Eastern Standard Time for publication. Please see <i>What is the timezone of timestamps?</i> FAQ for more information.</p> 
+    <p>In previous datasets that include results generated using leap year weather (AMY2012 in ResStock 2021 Release 1 and ResStock 2022 Release 1), ResStock datasets span 366 days or 8784 hours. Here is the relevant <a href="https://openstudio-hpxml.readthedocs.io/en/latest/workflow_inputs.html#id4">OS-HPXML documentation</a>.</p>
 </details>
 
 <details>
