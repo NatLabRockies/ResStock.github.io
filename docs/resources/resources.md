@@ -46,6 +46,7 @@ These documents provide explanations focusing on how and why of the ResStock dat
 - [Wood Stud Depth and Wall R-Value Calculations]({{ site.baseurl }}{% link docs/resources/explanations/Wood_Stud_Depth.md %})
 - [Monthly Electricity Comparisons to EIA 861M data]({{ site.baseurl }}{% link docs/resources/explanations/Monthly_Net_Electricity_Comparisons.md %})
 - [How Many Samples are Required for this Analysis?]({{ site.baseurl }}{% link docs/resources/explanations/Number_of_samples.md %})
+- [Summer Peak Increase from Cold Climate Heat Pump in ResStock 2025 Release 1]({{ site.baseurl }}{% link docs/resources/explanations/Summer_Peaking_CCHP.md %})
 
 ### ResStock Limitations and Known Issues
 - [ResStock 2025 Release 1 Column Applicability]({{ site.baseurl }}{% link docs/resources/explanations/Issue_2025_1_Column_Applicability.md%})
