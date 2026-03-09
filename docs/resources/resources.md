@@ -32,7 +32,7 @@ These guides provide step-by-step instructions for using a ResStock dataset to a
 - [Analyze Your Housing Stock Programmatically]({{ site.baseurl }}{% link docs/resources/how-to-guides/Analyze_housing_stock_programmatically.md %})
 
 ## Explanations
-These documents provide explanations focusing on how and why of the ResStock datasets. This section does not provide explicit advice on how to achieve a specific outcome, but rather focuses on helping users understand specific and important aspects of the datasets. Additional questions or ideas for documentation can be [emailed to us](mailto:resstock@nrel.gov). Explanations are available on the following topics:
+These documents provide explanations focusing on how and why of the ResStock datasets. This section does not provide explicit advice on how to achieve a specific outcome, but rather focuses on helping users understand specific and important aspects of the datasets. Additional questions or ideas for documentation can be [emailed to us](mailto:resstock@nlr.gov). Explanations are available on the following topics:
 
 ### General
 - [Considerations for ResStock Calibration and Validation]({{ site.baseurl }}{% link docs/resources/explanations/Considerations_for_ResStock_Calibration_and_Validation.md %})

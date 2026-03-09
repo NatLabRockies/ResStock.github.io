@@ -24,7 +24,7 @@ ResStock, along with our partner model ComStock™, make up BuildStock. BuildSto
 ## Quick Links
 
 ### Access the Dataset
-Visit the [Datsets page](https://resstock.nrel.gov/datasets) for access to the published datasets and details about the ways to access them.
+Visit the [Datsets page](https://resstock.nlr.gov/datasets) for access to the published datasets and details about the ways to access them.
 
 Read the [technical reference documentation]({{  site.baseurl  }}{% link assets/trd/ResStockTechnicalReferenceGuide_2025_1.pdf %}) for the most recent baseline model inputs and assumptions.
 

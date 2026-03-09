@@ -8,7 +8,7 @@ has_toc: false
 # Frequently Asked Questions
 {: .fw-500}
 
-Below are some frequently asked questions (FAQ) about ResStock. The questions are divided into ResStock essentials, datasets and data access, the data viewer, analysis, and then finally a modeling methods, assumptions, and documentation section. If you have another question, please email our team at [ResStock@nrel.gov](mailto:ResStock@nrel.gov).
+Below are some frequently asked questions (FAQ) about ResStock. The questions are divided into ResStock essentials, datasets and data access, the data viewer, analysis, and then finally a modeling methods, assumptions, and documentation section. If you have another question, please email our team at [ResStock@nlr.gov](mailto:ResStock@nlr.gov).
 
 ## ResStock Essentials
 
@@ -243,7 +243,7 @@ file.to_csv(os.path.join(folder_path, file_name+new_suffix), index = False)
     <summary>Can I run ComStock and ResStock myself?</summary>
     <p>The code required to run ComStock and ResStock is available on our public GitHub repositories: <a href="https://github.com/NatLabRockies/ComStock">https://github.com/NatLabRockies/ComStock</a> ; <a href="https://github.com/NatLabRockies/ResStock">https://github.com/NatLabRockies/ResStock</a>. Other related code repositories are provided on the For Developers page for <a href="https://natlabrockies.github.io/ComStock.github.io/docs/for_developers/for_developers.html">ComStock</a> and <a href="{{  site.baseurl  }}{% link docs/developers.md %}">ResStock</a>.
     
-    While these resources are available, ComStock and ResStock are complex modeling tools and there is no documentation for running the model other than what exists in the codebase, and we are not able to support running the models at this time. We generally do not recommend running the model unless you have a deep understanding of the methodology and objectives. Please email us at <a href="mailto:ComStock@nrel.gov">ComStock@nrel.gov</a> or <a href="mailto:ResStock@nrel.gov">ResStock@nrel.gov</a>  if you have suggestions for improvements or specific needs.
+    While these resources are available, ComStock and ResStock are complex modeling tools and there is no documentation for running the model other than what exists in the codebase, and we are not able to support running the models at this time. We generally do not recommend running the model unless you have a deep understanding of the methodology and objectives. Please email us at <a href="mailto:ComStock@nlr.gov">ComStock@nlr.gov</a> or <a href="mailto:ResStock@nlr.gov">ResStock@nlr.gov</a>  if you have suggestions for improvements or specific needs.
     </p>
 </details>
 
@@ -253,7 +253,7 @@ file.to_csv(os.path.join(folder_path, file_name+new_suffix), index = False)
     
     See an explanation and examples on this topic, for <a href="https://natlabrockies.github.io/ComStock.github.io/docs/resources/explanations/combining_measure_results.html">ComStock</a> and <a href="{{  site.baseurl  }}{% link docs/resources/explanations/Individual_Measures_Not_Combined.md %}">ResStock</a>.
     
-    Please email us at <a href="mailto:ComStock@nrel.gov">ComStock@nrel.gov</a> or <a href="mailto:ResStock@nrel.gov">ResStock@nrel.gov</a> if you have questions about combining specific measures.
+    Please email us at <a href="mailto:ComStock@nlr.gov">ComStock@nlr.gov</a> or <a href="mailto:ResStock@nlr.gov">ResStock@nlr.gov</a> if you have questions about combining specific measures.
     </p>
 </details>
 
@@ -289,7 +289,7 @@ file.to_csv(os.path.join(folder_path, file_name+new_suffix), index = False)
 
 <details>
     <summary>Does ResStock model rooftop solar PV?</summary>
-    <p>Yes, ResStock does model rooftop solar PV. See more details on rooftop PV, assumptions, and limitations on <a href="{{  site.baseurl  }}{% link docs/resources/explanations/PV_System_Assignment_and_Distributions.md %}">this explanation</a>.We recommend using <a href="https://pvwatts.nrel.gov/">PVWatts</a> or <a href="https://reopt.nrel.gov/tool">ReOPT</a> to evaluate PV for a more comprehensive analysis. </p>
+    <p>Yes, ResStock does model rooftop solar PV. See more details on rooftop PV, assumptions, and limitations on <a href="{{  site.baseurl  }}{% link docs/resources/explanations/PV_System_Assignment_and_Distributions.md %}">this explanation</a>.We recommend using <a href="https://pvwatts.nlr.gov/">PVWatts</a> or <a href="https://reopt.nrel.gov/tool">ReOPT</a> to evaluate PV for a more comprehensive analysis. </p>
 </details>
 
 <details>

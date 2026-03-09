@@ -13,7 +13,7 @@ The Data Viewer is a tool that can show annual and timeseries data with premade 
 
 For this example, we are doing a city-based filter, but the same procedure applies for any down selection in the Data Viewer. This includes other geographies, building characteristics, or demographics.
 
-On the [ResStock datasets page](https://resstock.nrel.gov/datasets), scroll down to End Use Savings Shapes 2022.1 Release. Notice that the fourth column has Data Viewer Links by state. Click on the first line option, which is "by state."
+On the [ResStock datasets page](https://resstock.nlr.gov/datasets), scroll down to End Use Savings Shapes 2022.1 Release. Notice that the fourth column has Data Viewer Links by state. Click on the first line option, which is "by state."
 
 ![](../../../assets/images/resstock-home-page.png)
 

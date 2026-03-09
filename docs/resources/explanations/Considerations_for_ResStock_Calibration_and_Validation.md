@@ -8,7 +8,7 @@ nav_order: 1
 # Considerations for ResStock Calibration and Validation
 A common question is whether ResStock has been appropriately calibrated for a specific use case. The answer is dependent on many factors, including the robustness of the relevant model inputs, the type of data needed, the housing segment of interest, and the user's tolerance for uncertainty.
 
-ResStock has been calibrated and validated as part of the three-year [End Use Load Profiles (EULP)](https://www.nrel.gov/buildings/end-use-load-profiles.html) project. EULP calibrated and validated ResStock against 33 measured datasets including utility load research data, advanced metering infrastructure (AMI) data from utilities, the U.S. Energy Information Administration Residential Energy Consumption Survey (RECS) monthly data, and sub-metered datasets. ResStock is continually improved through new input and calibration/validation data as they becomes available.
+ResStock has been calibrated and validated as part of the three-year [End Use Load Profiles (EULP)](https://www.nlr.gov/buildings/end-use-load-profiles.html) project. EULP calibrated and validated ResStock against 33 measured datasets including utility load research data, advanced metering infrastructure (AMI) data from utilities, the U.S. Energy Information Administration Residential Energy Consumption Survey (RECS) monthly data, and sub-metered datasets. ResStock is continually improved through new input and calibration/validation data as they becomes available.
 
 There are two main ways to understand the calibration process and model inputs:
 1. The [EULP Final Report](https://www.nrel.gov/docs/fy22osti/80889.pdf) provides a detailed description of the initial ResStock calibration and validation process and results.
