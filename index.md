@@ -18,7 +18,7 @@ ResStock asks and answers two main types of questions: 1) How is energy used in 
 ResStock, along with our partner model ComStock™, make up BuildStock. BuildStock allows for modeling of the U.S. residential and commercial building stock circa 2018.
 
 {:refdef: style="text-align: center;"}
-[Join Our Mailing List](https://www.nrel.gov/buildings/end-use-load-profiles#contact){: .btn .btn-blue .white-text}
+[Join Our Mailing List](https://www.nlr.gov/buildings/end-use-load-profiles#contact){: .btn .btn-blue .white-text}
 {:refdef}
 
 ## Quick Links
