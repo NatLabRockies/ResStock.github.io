@@ -6,7 +6,7 @@ nav_order: 11
 ---
 
 ## Introduction
-ResStock, like most other datasets, has uncertainty. As stated in [this paper](https://www.nrel.gov/docs/fy22osti/80889.pdf) in section 5.1.3, the two significant areas of uncertainty are 1) stock-level model input parameters, and 2) an insufficient number of ResStock samples. This explanation will focus on understanding whether an analysis is using a sufficient number of ResStock samples for its purposes, in order to get the most it can out of the ResStock dataset.
+ResStock, like most other datasets, has uncertainty. As stated in [this paper](https://www.nlr.gov/docs/fy22osti/80889.pdf) in section 5.1.3, the two significant areas of uncertainty are 1) stock-level model input parameters, and 2) an insufficient number of ResStock samples. This explanation will focus on understanding whether an analysis is using a sufficient number of ResStock samples for its purposes, in order to get the most it can out of the ResStock dataset.
 
 **The ResStock team recommends estimating the standard error using the standard deviation divided by the square root of the number of samples (i.e. profiles or models) and using the results to inform the appropriate minimum sample size for a particular analysis.** As a conservative reference, using at least 1,000 samples will maintain 15% or lower sampling discrepancy for many common quantities of interest. Continue reading for multiple examples of calculating uncertainty, and situations where less than 1,000 samples can make sense.
 
@@ -128,7 +128,7 @@ In the ResStock team’s experience, uncertainty levels off by 1,000 samples for
 
 ![](../../../assets/images/ercot-peak-load-day-2018.png)
 
-Above is Figure 386 from the [End Use Load Profiles Methodology report](https://docs.nrel.gov/docs/fy22osti/80889.pdf) which provides one example of the impact of number of samples on timeseries aggregate results in ResStock circa ResStock 2021 Release 1.
+Above is Figure 386 from the [End Use Load Profiles Methodology report](https://docs.nlr.gov/docs/fy22osti/80889.pdf) which provides one example of the impact of number of samples on timeseries aggregate results in ResStock circa ResStock 2021 Release 1.
 
 In the top row and top left figure, there are two samples used in the timeseries profile. The timeseries is spiky and dominated by the use of the cooking range and clothes dryer. The average 15-minute peak shown is over 1.2 kW per housing unit and occurs  around hour 22.
 

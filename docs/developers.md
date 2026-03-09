@@ -12,7 +12,7 @@ These repositories are publicly available to use, but we are not able to provide
 The [ResStock repository](https://github.com/NatLabRockies/resstock) contains the source code for building and executing ResStock models, including upgrade scenarios. It also links to a [Technical Development Guide](https://resstock.readthedocs.io/en/latest/index.html) which has basic and advanced tutorials.
 
 ## OpenStudio-HPXML Repository
-ResStock relies heavily on [OpenStudio-HPXML](https://github.com/NREL/OpenStudio-HPXML), which provides a method for simulating residential buildings with OpenStudio and EnergyPlus. OpenStudio-HPXML uses a series of OpenStudio measures to generate an EnergyPlus model for each sample based on the building and occupant characteristics defined by ResStock. In many cases, ResStock relies upon the OpenStudio-HPXML default arguments and calculations.
+ResStock relies heavily on [OpenStudio-HPXML](https://github.com/NatLabRockies/OpenStudio-HPXML), which provides a method for simulating residential buildings with OpenStudio and EnergyPlus. OpenStudio-HPXML uses a series of OpenStudio measures to generate an EnergyPlus model for each sample based on the building and occupant characteristics defined by ResStock. In many cases, ResStock relies upon the OpenStudio-HPXML default arguments and calculations.
 
 ## Buildstock Batch Repository
 Execution of the ResStock workflow is managed through the [buildstockbatch repository](https://github.com/NatLabRockies/buildstockbatch), a shared asset of ResStock and ComStock. It is specifically developed to scale to execution of tens of millions of simulations through multiple infrastructure providers.

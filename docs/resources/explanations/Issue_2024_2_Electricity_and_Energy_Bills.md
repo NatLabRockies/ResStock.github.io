@@ -49,7 +49,7 @@ Electricity_bill [$/year] = Electricity_fixed_charge [$/year] + electricity_net_
   <tr>
     <td>State</td>
     <td><a href="https://oedi-data-lake.s3.amazonaws.com/nrel-pds-building-stock/end-use-load-profiles-for-us-building-stock/2024/resstock_tmy3_release_2/resstock_documentation_2024_release_2.pdf" target="_blank" rel="noopener noreferrer">Documentation</a></td>
-    <td> <a href="https://github.com/NREL/resstock/blob/eussrr2/resources/data/simple_rates/State.tsv" target="_blank" rel="noopener noreferrer">Baseline, and Upgrades with Applicability = False</a></td>
+    <td> <a href="https://github.com/NatLabRockies/resstock/blob/eussrr2/resources/data/simple_rates/State.tsv" target="_blank" rel="noopener noreferrer">Baseline, and Upgrades with Applicability = False</a></td>
     <td>Measure Packages where Applicability = True</td>
     <td>Documentation</td>
     <td> Baseline, and Upgrades with Applicability = False</td>

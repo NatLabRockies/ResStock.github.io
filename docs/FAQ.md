@@ -14,7 +14,7 @@ Below are some frequently asked questions (FAQ) about ResStock. The questions ar
 
 <details>
     <summary>Is ResStock credible?</summary>
-    <p>Yes. The models underwent extensive calibration as part of the End Use Load Profiles (EULP) project where we compared model load profiles to AMI data from around the country, and updated baseline model schedules, power densities, among other things using various data sources. Reference the <a href="https://www.nrel.gov/docs/fy22osti/80889.pdf">EULP final report</a> for more details. The EULP project concluded in 2021.
+    <p>Yes. The models underwent extensive calibration as part of the End Use Load Profiles (EULP) project where we compared model load profiles to AMI data from around the country, and updated baseline model schedules, power densities, among other things using various data sources. Reference the <a href="https://www.nlr.gov/docs/fy22osti/80889.pdf">EULP final report</a> for more details. The EULP project concluded in 2021.
 
     For details about how to determine whether the models are appropriate for a specific analysis, reference <a href="{{  site.baseurl  }}{% link docs/resources/explanations/Considerations_for_ResStock_Calibration_and_Validation.md %}">this explanation</a>.</p>
 </details>
@@ -26,7 +26,7 @@ Below are some frequently asked questions (FAQ) about ResStock. The questions ar
 
 <details>
     <summary>What are weights in ResStock and how are they used?</summary>
-    <p>Weights in ResStock represent the number of real buildings in the U.S. building stock that a ResStock model represents. Each ResStock dataset release has a different weighting factor for the building models. As seen in <a href="https://www.nrel.gov/docs/fy22osti/80889.pdf">this paper</a>, our model or sample weights are constructed using U.S. EIA 2009 RECS microdata. Use the weights by multiplying the column of interest by the weight. Some results columns already have the weight applied. These have the word “weighted” in the name.</p>
+    <p>Weights in ResStock represent the number of real buildings in the U.S. building stock that a ResStock model represents. Each ResStock dataset release has a different weighting factor for the building models. As seen in <a href="https://www.nlr.gov/docs/fy22osti/80889.pdf">this paper</a>, our model or sample weights are constructed using U.S. EIA 2009 RECS microdata. Use the weights by multiplying the column of interest by the weight. Some results columns already have the weight applied. These have the word “weighted” in the name.</p>
 </details>
 
 <details>
@@ -36,7 +36,7 @@ Below are some frequently asked questions (FAQ) about ResStock. The questions ar
 
 <details>
     <summary>How many profiles or models should be used, and how does the number used affect uncertainty of results?</summary>
-    <p>We recommend estimating the standard error using the standard deviation divided by the square root of the number of samples (i.e. profiles or models) and using the results to inform the appropriate minimum sample size for a particular analysis. As a conservative reference, using at least 1,000 samples  will maintain 15% or lower sampling discrepancy for many common quantities of interest, as described in the <a href="https://docs.nrel.gov/docs/fy22osti/80889.pdf">End-Use Load Profiles methodology report section 5.1.3</a>.
+    <p>We recommend estimating the standard error using the standard deviation divided by the square root of the number of samples (i.e. profiles or models) and using the results to inform the appropriate minimum sample size for a particular analysis. As a conservative reference, using at least 1,000 samples  will maintain 15% or lower sampling discrepancy for many common quantities of interest, as described in the <a href="https://docs.nlr.gov/docs/fy22osti/80889.pdf">End-Use Load Profiles methodology report section 5.1.3</a>.
 
     See <a href="{{  site.baseurl  }}{% link docs/resources/explanations/Number_of_samples.md %}">this explanation</a> which has more details and also points to other ResStock references about how to increase the number of samples and calculate the uncertainty.
     </p>
@@ -44,7 +44,7 @@ Below are some frequently asked questions (FAQ) about ResStock. The questions ar
 
 <details>
     <summary>Are these load profiles measured or simulated?</summary>
-    <p>The profiles are simulated using the ResStock and ComStock modeling tools, which have been validated and informed by the best available data against an array of empirical datasets. ResStock and ComStock use the EnergyPlus simulation engine. The validation results and uncertainty for quantities of interest are presented in the <a href="https://docs.nrel.gov/docs/fy22osti/80889.pdf">End-Use Load Profiles final report</a>.
+    <p>The profiles are simulated using the ResStock and ComStock modeling tools, which have been validated and informed by the best available data against an array of empirical datasets. ResStock and ComStock use the EnergyPlus simulation engine. The validation results and uncertainty for quantities of interest are presented in the <a href="https://docs.nlr.gov/docs/fy22osti/80889.pdf">End-Use Load Profiles final report</a>.
     
     ResStock generally simulates 550,000 individual building energy models, and ComStock simulates 150,000 building energy models. 
     </p>
@@ -294,7 +294,7 @@ file.to_csv(os.path.join(folder_path, file_name+new_suffix), index = False)
 
 <details>
     <summary>Are there electric vehicle (EV) charging profiles in the dataset?</summary>
-    <p>Yes, there are EV profiles starting in the ResStock 2025 Release 1 dataset. See the <a href="https://docs.nrel.gov/docs/fy25osti/93766.pdf">report</a> for more information.</p>
+    <p>Yes, there are EV profiles starting in the ResStock 2025 Release 1 dataset. See the <a href="https://docs.nlr.gov/docs/fy25osti/93766.pdf">report</a> for more information.</p>
 </details>
 
 <details>
