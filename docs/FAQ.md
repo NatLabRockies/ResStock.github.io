@@ -100,7 +100,7 @@ Below are some frequently asked questions (FAQ) about ResStock. The questions ar
 
 <details>
     <summary>Are weather data files available in EPW format?</summary>
-    <p>Weather data used for the modeling have been provided in .csv format for regression modeling, forecasting, or other analyses. The TMY3 weather files in EnergyPlus input format (EPW) can be downloaded from the NLR Data Catalog (https://data.nrel.gov/submissions/156), with filenames that correspond to county IDs in the ResStock and ComStock metadata. EPW format weather files for 2018 or other actual meteorological years (AMY) have not been publicly released. These files can be purchased from private sector vendors. See <a href="https://energyplus.net/weather/simulation">here</a> for a list of providers.</p>
+    <p>Weather data used for the modeling have been provided in .csv format for regression modeling, forecasting, or other analyses. The TMY3 weather files in EnergyPlus input format (EPW) can be downloaded from the NLR Data Catalog (https://data.nlr.gov/submissions/156), with filenames that correspond to county IDs in the ResStock and ComStock metadata. EPW format weather files for 2018 or other actual meteorological years (AMY) have not been publicly released. These files can be purchased from private sector vendors. See <a href="https://energyplus.net/weather/simulation">here</a> for a list of providers.</p>
 </details>
 
 <details>
@@ -289,7 +289,7 @@ file.to_csv(os.path.join(folder_path, file_name+new_suffix), index = False)
 
 <details>
     <summary>Does ResStock model rooftop solar PV?</summary>
-    <p>Yes, ResStock does model rooftop solar PV. See more details on rooftop PV, assumptions, and limitations on <a href="{{  site.baseurl  }}{% link docs/resources/explanations/PV_System_Assignment_and_Distributions.md %}">this explanation</a>.We recommend using <a href="https://pvwatts.nlr.gov/">PVWatts</a> or <a href="https://reopt.nrel.gov/tool">ReOPT</a> to evaluate PV for a more comprehensive analysis. </p>
+    <p>Yes, ResStock does model rooftop solar PV. See more details on rooftop PV, assumptions, and limitations on <a href="{{  site.baseurl  }}{% link docs/resources/explanations/PV_System_Assignment_and_Distributions.md %}">this explanation</a>.We recommend using <a href="https://pvwatts.nlr.gov/">PVWatts</a> or <a href="https://www.nlr.gov/reopt">ReOPT</a> to evaluate PV for a more comprehensive analysis. </p>
 </details>
 
 <details>
