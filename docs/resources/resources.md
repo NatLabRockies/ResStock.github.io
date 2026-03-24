@@ -49,6 +49,7 @@ These documents provide explanations focusing on how and why of the ResStock dat
 - [Summer Peak Increase from Cold Climate Heat Pump in ResStock 2025 Release 1]({{ site.baseurl }}{% link docs/resources/explanations/Summer_Peaking_CCHP.md %})
 
 ### ResStock Limitations and Known Issues
+- [ResStock 2025 Release 1 Electric Panel Capacity]({{ site.baseurl }}{% link docs/resources/explanations/Issue_2025_1_Electric_Panel_Capacity.md%})
 - [ResStock 2025 Release 1 Column Applicability]({{ site.baseurl }}{% link docs/resources/explanations/Issue_2025_1_Column_Applicability.md%})
 - [ResStock 2024 Release 2 Electricity and Energy Bills]({{ site.baseurl }}{% link docs/resources/explanations/Issue_2024_2_Electricity_and_Energy_Bills.md%})
 - [Wall Type Issue, Especially in Maine]({{ site.baseurl }}{% link docs/resources/explanations/Issue_Wall_Type_Especially_Maine.md%})
