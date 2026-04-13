@@ -39,14 +39,14 @@ New datasets include new measures as well as updates to the ResStock baseline mo
 | 21 | Efficient Electric Vehicle<br> Adoption with Level 2 Charging* | ResStock 2025 Release 1 |
 | 22 | Electric Vehicle Adoption<br> with Level 2 Charging and<br> Demand Flexibility* | ResStock 2025 Release 1 |
 | 23 | Efficient Electric Vehicle<br> Adoption with Level 2 Charging<br> and Demand Flexibility* | ResStock 2025 Release 1 |
-| 24 | HVAC Demand Flexibility<br> with On-Peak Load Shedding of 2F offset* | ResStock 2025 Release 1 |
-| 25 | HVAC Demand Flexibility<br> with 4 hour Pre-peak Load Shifting of 2F offset* | ResStock 2025 Release 1 |
-| 26 | HVAC Demand Flexibility<br> with On-Peak Load Shedding of 4F offset* | ResStock 2025 Release 1 |
-| 27 | HVAC Demand Flexibility<br> with 4 hour Pre-peak Load Shifting of 4F offset* | ResStock 2025 Release 1 |
-| 28 | HVAC Demand Flexibility<br> with 1 hour Pre-peak Load Shifting of 2F offset* | ResStock 2025 Release 1 |
+| 24 | [HVAC Demand Flexibility<br> with On-Peak Load Shedding of 2F offset](https://www.nlr.gov/docs/fy26osti/93846.pdf) | ResStock 2025 Release 1 |
+| 25 | [HVAC Demand Flexibility<br> with 4 hour Pre-peak Load Shifting of 2F offset](https://www.nlr.gov/docs/fy26osti/93846.pdf) | ResStock 2025 Release 1 |
+| 26 | [HVAC Demand Flexibility<br> with On-Peak Load Shedding of 4F offset](https://www.nlr.gov/docs/fy26osti/93846.pdf) | ResStock 2025 Release 1 |
+| 27 | [HVAC Demand Flexibility<br> with 4 hour Pre-peak Load Shifting of 4F offset](https://www.nlr.gov/docs/fy26osti/93846.pdf) | ResStock 2025 Release 1 |
+| 28 | [HVAC Demand Flexibility<br> with 1 hour Pre-peak Load Shifting of 2F offset](https://www.nlr.gov/docs/fy26osti/93846.pdf) | ResStock 2025 Release 1 |
 | 29 | Light Air Sealing* | ResStock 2025 Release 1 |
 | 30 | Light Air Sealing, Attic Floor Insulation,<br> and Duct Sealing and Insulation* | ResStock 2025 Release 1 |
 | 31 | Residential Two-Stage Geothermal Heat<br> Pump (4.0 COP, 20.5 EER) With Light Envelope Improvements* | ResStock 2025 Release 1 |
 | 32 | Residential Variable-Speed Geothermal Heat<br> Pump (4.4 COP, 30.9 EER) with Light Envelope Improvements* | ResStock 2025 Release 1 |
 
-*Measure documentation will be available in the future.
+*Measure documentation will be available in the future. Please email [ResStock@nlr.gov](mailto:resstock@nlr.gov) if you would like a draft version of the documentation.
