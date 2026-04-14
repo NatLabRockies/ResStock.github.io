@@ -29,11 +29,11 @@ New datasets include new measures as well as updates to the ResStock baseline mo
 | 11 | Advanced Air Sealing* | ResStock 2025 Release 1 |
 | 12 | Attic Floor Insulation* | ResStock 2025 Release 1 |
 | 13 | Duct Sealing and Insulation* | ResStock 2025 Release 1 |
-| 14 | [Advanced Air Sealing with Drill-and-Fill<br> Wall Insulation](https://www.nlr.gov/docs/fy26osti/96281.pdf) | ResStock 2025 Release 1 |
-| 15 | Advanced Air Sealing, Attic Floor Insulation<br>, and Duct Sealing and Insulation* | ResStock 2025 Release 1 |
-| 16 | Advanced Air Sealing, Drill-and-Fill Wall Insulation <br>, Attic Floor Insulation, and Duct Sealing and Insulation* | ResStock 2025 Release 1 |
+| 14 | [Advanced Air Sealing with Drill-and-Fill Wall Insulation](https://www.nlr.gov/docs/fy26osti/96281.pdf) | ResStock 2025 Release 1 |
+| 15 | Advanced Air Sealing, Attic Floor Insulation, and Duct Sealing and Insulation* | ResStock 2025 Release 1 |
+| 16 | Advanced Air Sealing, Drill-and-Fill Wall Insulation, Attic Floor Insulation, and Duct Sealing and Insulation* | ResStock 2025 Release 1 |
 | 17 | EnergyStar Windows* | ResStock 2025 Release 1 |
-| 18 | Two-Stage Geothermal Heat Pump, Advanced Air Sealing,<br> Attic Floor Insulation, and Duct Sealing and Insulation* | ResStock 2025 Release 1 |
+| 18 | Two-Stage Geothermal Heat Pump, Advanced Air Sealing, Attic Floor Insulation, and Duct Sealing and Insulation* | ResStock 2025 Release 1 |
 | 19 | Electric Vehicle Adoption<br> with Level 1 Charging* | ResStock 2025 Release 1 |
 | 20 | Electric Vehicle Adoption<br> with Level 2 Charging* | ResStock 2025 Release 1 |
 | 21 | Efficient Electric Vehicle<br> Adoption with Level 2 Charging* | ResStock 2025 Release 1 |
@@ -45,8 +45,8 @@ New datasets include new measures as well as updates to the ResStock baseline mo
 | 27 | [HVAC Demand Flexibility<br> with 4 hour Pre-peak Load Shifting of 4F offset](https://www.nlr.gov/docs/fy26osti/93846.pdf) | ResStock 2025 Release 1 |
 | 28 | [HVAC Demand Flexibility<br> with 1 hour Pre-peak Load Shifting of 2F offset](https://www.nlr.gov/docs/fy26osti/93846.pdf) | ResStock 2025 Release 1 |
 | 29 | Light Air Sealing* | ResStock 2025 Release 1 |
-| 30 | Light Air Sealing, Attic Floor Insulation,<br> and Duct Sealing and Insulation* | ResStock 2025 Release 1 |
-| 31 | Residential Two-Stage Geothermal Heat<br> Pump (4.0 COP, 20.5 EER) With Light Envelope Improvements* | ResStock 2025 Release 1 |
-| 32 | Residential Variable-Speed Geothermal Heat<br> Pump (4.4 COP, 30.9 EER) with Light Envelope Improvements* | ResStock 2025 Release 1 |
+| 30 | Light Air Sealing, Attic Floor Insulation, and Duct Sealing and Insulation* | ResStock 2025 Release 1 |
+| 31 | Residential Two-Stage Geothermal Heat Pump (4.0 COP, 20.5 EER) With Light Envelope Improvements* | ResStock 2025 Release 1 |
+| 32 | Residential Variable-Speed Geothermal Heat Pump (4.4 COP, 30.9 EER) with Light Envelope Improvements* | ResStock 2025 Release 1 |
 
 *Measure documentation will be available in the future. Please email [ResStock@nlr.gov](mailto:resstock@nlr.gov) if you would like a draft version of the documentation.
