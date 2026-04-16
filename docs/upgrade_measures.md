@@ -27,11 +27,11 @@ New datasets include new measures as well as updates to the ResStock baseline mo
 | 9 | Heat Pump Water Heater* | ResStock 2025 Release 1 |
 | 10 | Natural Gas Water Heater* | ResStock 2025 Release 1 |
 | 11 | Advanced Air Sealing* | ResStock 2025 Release 1 |
-| 12 | Attic Floor Insulation* | ResStock 2025 Release 1 |
-| 13 | Duct Sealing and Insulation* | ResStock 2025 Release 1 |
+| 12 | [Attic Floor Insulation](https://docs.nlr.gov/docs/fy26osti/96739.pdf) | ResStock 2025 Release 1 |
+| 13 | [Duct Sealing and Insulation](https://docs.nlr.gov/docs/fy26osti/96344.pdf) | ResStock 2025 Release 1 |
 | 14 | [Advanced Air Sealing with Drill-and-Fill Wall Insulation](https://www.nlr.gov/docs/fy26osti/96281.pdf) | ResStock 2025 Release 1 |
-| 15 | Advanced Air Sealing, Attic Floor Insulation, and Duct Sealing and Insulation* | ResStock 2025 Release 1 |
-| 16 | Advanced Air Sealing, Drill-and-Fill Wall Insulation, Attic Floor Insulation, and Duct Sealing and Insulation* | ResStock 2025 Release 1 |
+| 15 | [Advanced Air Sealing, Attic Floor Insulation, and Duct Sealing and Insulation](https://www.nlr.gov/docs/fy26osti/96347.pdf) | ResStock 2025 Release 1 |
+| 16 | [Advanced Air Sealing, Drill-and-Fill Wall Insulation, Attic Floor Insulation, and Duct Sealing and Insulation](https://www.nlr.gov/docs/fy26osti/96349.pdf) | ResStock 2025 Release 1 |
 | 17 | EnergyStar Windows* | ResStock 2025 Release 1 |
 | 18 | Two-Stage Geothermal Heat Pump, Advanced Air Sealing, Attic Floor Insulation, and Duct Sealing and Insulation* | ResStock 2025 Release 1 |
 | 19 | Electric Vehicle Adoption<br> with Level 1 Charging* | ResStock 2025 Release 1 |
