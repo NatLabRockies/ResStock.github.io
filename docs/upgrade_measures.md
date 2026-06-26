@@ -15,15 +15,15 @@ New datasets include new measures as well as updates to the ResStock baseline mo
 ## Measure Documentation and Details Starting with ResStock 2025 Release 1
 
 | **Measure Number** | **Measure Name and Documentation Link** | **Initial Dataset Release** |
-| --- | --- | --- |
+| :---: | --- | --- |
 | 1 | [Natural Gas Furnace 95% AFUE](https://docs.nlr.gov/docs/fy26osti/96634.pdf) | ResStock 2025 Release 1 |
 | 2 | [Propane Furnace 95% AFUE and Fuel Oil Furnace 88% AFUE](https://docs.nlr.gov/docs/fy26osti/96635.pdf) | ResStock 2025 Release 1 |
 | 3 | [Reference Space Heating and Air Conditioning Upgrade Circa 2025](https://docs.nlr.gov/docs/fy26osti/96636.pdf) | ResStock 2025 Release 1 |
 | 4 | [Cold Climate Air-Source Heat Pump](https://docs.nlr.gov/docs/fy26osti/96413.pdf) | ResStock 2025 Release 1 |
 | 5 | [Dual Fuel Heat Pump](https://docs.nlr.gov/docs/fy26osti/96414.pdf) | ResStock 2025 Release 1 |
-| 6 | Single-stage Geothermal Heat Pump* | ResStock 2025 Release 1 |
-| 7 | Two-stage Geothermal Heat Pump* | ResStock 2025 Release 1 |
-| 8 | Variable-speed Geothermal Heat Pump* | ResStock 2025 Release 1 |
+| 6 | [Residential Single-Stage Geothermal Heat Pump (3.8 COP, 18.6 EER)](https://www.nlr.gov/docs/fy26osti/95032.pdf) | ResStock 2025 Release 1 |
+| 7 | [Residential Two-Stage Geothermal Heat Pump (4.0 COP, 20.5 EER)](https://www.nlr.gov/docs/fy26osti/95034.pdf) | ResStock 2025 Release 1 |
+| 8 | [Residential Variable-Speed Geothermal Heat Pump (4.4 COP, 30.9 EER)](https://www.nlr.gov/docs/fy26osti/95036.pdf) | ResStock 2025 Release 1 |
 | 9 | [Heat Pump Water Heater](https://docs.nlr.gov/docs/fy26osti/96826.pdf) | ResStock 2025 Release 1 |
 | 10 | [Natural Gas Water Heater](https://docs.nlr.gov/docs/fy26osti/96827.pdf) | ResStock 2025 Release 1 |
 | 11 | Advanced Air Sealing* | ResStock 2025 Release 1 |
@@ -33,7 +33,7 @@ New datasets include new measures as well as updates to the ResStock baseline mo
 | 15 | [Advanced Air Sealing, Attic Floor Insulation, and Duct Sealing and Insulation](https://docs.nlr.gov/docs/fy26osti/96347.pdf) | ResStock 2025 Release 1 |
 | 16 | [Advanced Air Sealing, Drill-and-Fill Wall Insulation, Attic Floor Insulation, and Duct Sealing and Insulation](https://docs.nlr.gov/docs/fy26osti/96349.pdf) | ResStock 2025 Release 1 |
 | 17 | [EnergyStar Windows](https://docs.nlr.gov/docs/fy26osti/96405.pdf) | ResStock 2025 Release 1 |
-| 18 | Two-Stage Geothermal Heat Pump, Advanced Air Sealing, Attic Floor Insulation, and Duct Sealing and Insulation* | ResStock 2025 Release 1 |
+| 18 | [Residential Two-Stage Geothermal Heat Pump (4.0 COP, 20.5 EER) With Envelope Improvements and Advanced Air Sealing](https://docs.nlr.gov/docs/fy26osti/95035.pdf) | ResStock 2025 Release 1 |
 | 19 | [Electric Vehicle Adoption with Level 1 Charging](https://docs.nlr.gov/docs/fy26osti/94459.pdf) | ResStock 2025 Release 1 |
 | 20 | [Electric Vehicle Adoption with Level 2 Charging](https://docs.nlr.gov/docs/fy26osti/94460.pdf) | ResStock 2025 Release 1 |
 | 21 | [Efficient Electric Vehicle Adoption with Level 2 Charging](https://docs.nlr.gov/docs/fy26osti/94461.pdf) | ResStock 2025 Release 1 |
