@@ -55,7 +55,7 @@ These documents provide explanations focusing on how and why of the ResStock dat
 - [Wall Type Issue, Especially in Maine]({{ site.baseurl }}{% link docs/resources/explanations/Issue_Wall_Type_Especially_Maine.md%})
 -   [ResStock 2024 Release 2 Measure Applicability]({{ site.baseurl }}{% link docs/resources/explanations/Issue_2024_2_Measure_Applicability.md%})
 
-## Training Videos<span class="label label-blue">NEW</span>
+## Training Videos
 Webinars, presentations, and guidance on the ComStock and ResStock datasets—including training videos on accessing the datasets, using the Data Viewer, and more—are available on [NLR’s Building Stock Analysis YouTube channel](https://www.youtube.com/playlist?list=PLmIn8Hncs7bEYCZiHaoPSovoBrRGR-tRS). See below for a sample of available videos. For the full collection, visit the YouTube channel.
 
 -   [NLR Data on Home Energy Savings Potential for States and Communities](https://www.youtube.com/watch?v=2J5yESxR-qM)
@@ -63,8 +63,9 @@ Webinars, presentations, and guidance on the ComStock and ResStock datasets—in
 -   [End-Use Load Profiles Dataset Access Demonstration](https://www.youtube.com/watch?v=iS7KeVQ0Bvs)
 -   [Loading End-Use Saving Shapes Data into AWS Athena](https://www.youtube.com/watch?v=qSR1MFpSiro)
 -   [BuildStockQuery Training Series](https://www.youtube.com/watch?v=jmmAHsOZAp8)
+-   [Overview and Guide to Geothermal Heat Pump Resources](https://www.youtube.com/watch?v=D32UNZPPoCQ)
 
-## Tableau Dashboards<span class="label label-blue">NEW</span>
+## Tableau Dashboards
 The [ResStock Tableau Public page](https://public.tableau.com/app/profile/nrel.buildingstock/vizzes) offers interactive visualizations based on ResStock datasets. These visualizations provide insights into building characteristics, energy consumption patterns, and the potential impacts of energy efficiency measures across various building types and geographic regions. See below for a sample of available dashboards. Additional dashboards will be posted to the ResStock Tableau Public page as they become available.
 
 - [Evaluating Geothermal Performance for the U.S. Building Stock](https://public.tableau.com/app/profile/comstock.nrel/viz/EvaluatingGeothermalPerformancefortheU_S_BuildingStock/Home) (2025)
