@@ -26,7 +26,7 @@ New datasets include new measures as well as updates to the ResStock baseline mo
 | 8 | [Residential Variable-Speed Geothermal Heat Pump (4.4 COP, 30.9 EER)](https://www.nlr.gov/docs/fy26osti/95036.pdf)                                            | ResStock 2025 Release 1 |
 | 9 | [Heat Pump Water Heater](https://docs.nlr.gov/docs/fy26osti/96826.pdf)                                                                                        | ResStock 2025 Release 1 |
 | 10 | [Natural Gas Water Heater](https://docs.nlr.gov/docs/fy26osti/96827.pdf)                                                                                     | ResStock 2025 Release 1 |
-| 11 | Advanced Air Sealing*                                                                                                                                        | ResStock 2025 Release 1 |
+| 11 | [Advanced Air Sealing](https://docs.nlr.gov/docs/fy27osti/96738.pdf)                                                                                         | ResStock 2025 Release 1 |
 | 12 | [Attic Floor Insulation](https://docs.nlr.gov/docs/fy26osti/96739.pdf)                                                                                       | ResStock 2025 Release 1 |
 | 13 | [Duct Sealing and Insulation](https://docs.nlr.gov/docs/fy26osti/96344.pdf)                                                                                  | ResStock 2025 Release 1 |
 | 14 | [Advanced Air Sealing with Drill-and-Fill Wall Insulation](https://docs.nlr.gov/docs/fy26osti/96281.pdf)                                                     | ResStock 2025 Release 1 |
@@ -48,5 +48,3 @@ New datasets include new measures as well as updates to the ResStock baseline mo
 | 30 | [Light Air Sealing, Attic Floor Insulation, and Duct Sealing and Insulation](https://www.nlr.gov/docs/fy26osti/99818.pdf)                                    | ResStock 2025 Release 1 |
 | 31 | [Residential Two-Stage Geothermal Heat Pump (4.0 COP, 20.5 EER) With Light Envelope Improvements](https://www.nlr.gov/docs/fy26osti/99819.pdf)               | ResStock 2025 Release 1 |
 | 32 | [Residential Variable-Speed Geothermal Heat Pump (4.4 COP, 30.9 EER) with Light Envelope Improvements](https://www.nlr.gov/docs/fy26osti/99820.pdf)          | ResStock 2025 Release 1 |
-
-*Measure documentation will be available in the future. Please email [ResStock@nlr.gov](mailto:resstock@nlr.gov) if you would like a draft version of the documentation.
