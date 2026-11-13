@@ -1,0 +1,82 @@
+# Keeps _data/corpus_index.json in step with the newest ResStock release of the BuildStock corpus.
+#
+# The site uses that file to put a "read this page as Markdown" link on every page
+# that has a copy in the corpus, and to describe the corpus as a schema.org Dataset.
+# Nothing publishes on its own: when the file changes, this job opens a pull request
+# for a person to review and merge.
+#
+# Runs every Monday at 12:00 UTC, or on demand from the Actions tab.
+
+name: Sync corpus index
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch index.json from the newest ResStock corpus release tag
+        id: fetch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          # The corpus repository releases more than one product (ComStock and ResStock),
+          # so GitHub's "latest release" can belong to another product. Only tags whose
+          # release id starts with this product are considered.
+          PRODUCT: resstock
+        run: |
+          set -euo pipefail
+          # Tags are named <release id>-v<N>; the release folder is processed/<product>/<release id>/,
+          # and the product is the first underscore-separated part of the release id.
+          # Newest published (not draft, not prerelease) release of this product, by creation time.
+          tag=$(gh api --paginate "repos/NatLabRockies/buildstock-corpus/releases?per_page=100" \
+            --jq ".[] | select(.draft == false and .prerelease == false)
+                      | select(.tag_name | startswith(\"${PRODUCT}_\"))
+                      | [.created_at, .tag_name] | @tsv" \
+            | sort | tail -n 1 | cut -f 2)
+          if [ -z "$tag" ]; then
+            echo "no published corpus release found for product '$PRODUCT'" >&2
+            exit 1
+          fi
+          release=${tag%-v*}
+          product=${release%%_*}
+          echo "newest $PRODUCT corpus release: $tag ($product / $release)"
+          mkdir -p _data
+          gh api -H "Accept: application/vnd.github.raw" \
+            "repos/NatLabRockies/buildstock-corpus/contents/processed/$product/$release/index.json?ref=$tag" \
+            > _data/corpus_index.json
+          # The file must be valid JSON, name the tag it was fetched from, and be this product's.
+          got=$(jq -r .corpus_version _data/corpus_index.json)
+          if [ "$got" != "$tag" ]; then
+            echo "corpus_version in index.json is '$got', expected '$tag'" >&2
+            exit 1
+          fi
+          got_product=$(jq -r .product _data/corpus_index.json)
+          if [ "$got_product" != "$PRODUCT" ]; then
+            echo "product in index.json is '$got_product', expected '$PRODUCT'" >&2
+            exit 1
+          fi
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+
+      - name: Open a pull request if the index changed
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: sync-corpus-index
+          delete-branch: true
+          commit-message: "Update corpus index to ${{ steps.fetch.outputs.tag }}"
+          title: "Update corpus index to ${{ steps.fetch.outputs.tag }}"
+          body: |
+            Automated: `_data/corpus_index.json` refreshed from the newest BuildStock corpus
+            release, `${{ steps.fetch.outputs.tag }}`.
+
+            This file drives the per-page "read this page as Markdown" links and the
+            Dataset structured data on the For Developers page. Review the diff, then merge.
+          labels: automated
