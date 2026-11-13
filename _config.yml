@@ -2,7 +2,12 @@ title: ResStock
 description: ResStock Documentation
 # theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
-url: https://github.com/NatLabRockies/ResStock.github.io
+# Host only. GitHub Pages adds baseurl (/ResStock.github.io) for this project site,
+# so canonical tags and the sitemap resolve to https://natlabrockies.github.io/ResStock.github.io/...
+url: https://natlabrockies.github.io
+# Full address of the published site, used to match pages against the BuildStock corpus
+# (_data/corpus_index.json records each document's publication_url on this host).
+live_url: https://natlabrockies.github.io/ResStock.github.io
 logo: "/assets/images/logo.svg"
 favicon_ico: "/assets/images/favicon.ico"
 search_enabled: true
@@ -10,6 +15,12 @@ aux_links:
   "ResStock on GitHub":
     - "https://github.com/NatLabRockies/resstock"
 aux_links_new_tab: true
+
+# jekyll-sitemap is on the GitHub Pages plugin whitelist; it writes /sitemap.xml
+# (named in robots.txt) so crawlers and AI indexers can find every page.
+plugins:
+  - jekyll-sitemap
+
 footer_content: >
   The National Laboratory of the Rockies is a national laboratory of the
   <a href="https://www.energy.gov">U.S. Department of Energy</a>,

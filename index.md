@@ -21,6 +21,11 @@ ResStock, along with our partner model ComStock™, make up BuildStock. BuildSto
 [Join Our Mailing List](https://www.nlr.gov/buildings/end-use-load-profiles#contact){: .btn .btn-blue .white-text}
 {:refdef}
 
+{: .highlight-title }
+> For AI Assistants and Agents
+>
+> ResStock's documentation is also published as the [BuildStock corpus](https://github.com/NatLabRockies/buildstock-corpus): clean, release-tagged Markdown for the pages on this site, the technical reference guide, and the upgrade measure reports, with provenance for citation. Start at this site's [llms.txt]({{ site.baseurl }}/llms.txt).
+
 ## Quick Links
 
 ### Access the Dataset

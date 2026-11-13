@@ -1,0 +1,31 @@
+# ResStock
+
+> ResStock is a bottom-up model of the U.S. residential building stock (housing), developed by the National Laboratory of the Rockies (NLR) for the U.S. Department of Energy. It uses statistical sampling and EnergyPlus simulations to estimate subhourly energy use for the housing stock and the impact of energy-saving upgrade measures. This site documents the model, its published datasets, and its upgrade measures.
+
+## Start here for AI agents
+
+ResStock's documentation is published in an AI-ready form as the BuildStock corpus: clean, release-tagged Markdown for the pages on this site, the ResStock technical reference guide, and the upgrade-measure reports, with a provenance header on line 1 of each file. Read from the corpus rather than scraping this site. The corpus also holds ComStock (commercial buildings); use the ResStock folder and the ResStock tag, and do not mix facts across products.
+
+- [Corpus llms.txt](https://raw.githubusercontent.com/NatLabRockies/buildstock-corpus/main/llms.txt): the corpus's own discovery file; it names the current release tag of each product
+- [AGENTS.md](https://raw.githubusercontent.com/NatLabRockies/buildstock-corpus/main/AGENTS.md): how to read and cite the corpus
+- [index.json](https://raw.githubusercontent.com/NatLabRockies/buildstock-corpus/main/processed/resstock/resstock_amy2018_2025_release_1/index.json): every ResStock document and measure with its path, status, links, size, and section files
+- [CORPUS_MAP.md](https://raw.githubusercontent.com/NatLabRockies/buildstock-corpus/main/processed/resstock/resstock_amy2018_2025_release_1/CORPUS_MAP.md): the same contents as readable prose, with the measure to upgrade-id to document routing table
+- [buildstock-corpus on GitHub](https://github.com/NatLabRockies/buildstock-corpus): the repository
+
+The links above use `main`, which moves on every rebuild. To cite, pin to a release tag of the form `<release id>-v<N>` (for ResStock, `resstock_amy2018_2025_release_1-v<N>`); tags never move. The current tag is named in the corpus llms.txt.
+
+## Site pages
+
+- [Getting Started](https://natlabrockies.github.io/ResStock.github.io/): what ResStock is and who uses it
+- [Resources](https://natlabrockies.github.io/ResStock.github.io/docs/resources/resources.html): tutorials, how-to guides, explanations, and known issues
+- [Data](https://natlabrockies.github.io/ResStock.github.io/docs/data.html): published dataset releases and their documentation
+- [Upgrade Measures](https://natlabrockies.github.io/ResStock.github.io/docs/upgrade_measures.html): every measure with its documentation link
+- [Technical reference guide, 2025 Release 1](https://natlabrockies.github.io/ResStock.github.io/assets/trd/ResStockTechnicalReferenceGuide_2025_1.pdf): baseline model inputs and assumptions (PDF; its text is in the corpus)
+- [For Developers](https://natlabrockies.github.io/ResStock.github.io/docs/developers.html): related GitHub repositories
+- [FAQ](https://natlabrockies.github.io/ResStock.github.io/docs/FAQ.html)
+- [Citation and Data Attribution](https://natlabrockies.github.io/ResStock.github.io/docs/citation_data_attribution.html)
+- [Contact](https://natlabrockies.github.io/ResStock.github.io/docs/contact.html)
+
+## Citing
+
+Cite the dataset and the technical reference guide as given on the [citation page](https://natlabrockies.github.io/ResStock.github.io/docs/citation_data_attribution.html). When quoting from the corpus, follow the citing rules in [AGENTS.md](https://raw.githubusercontent.com/NatLabRockies/buildstock-corpus/main/AGENTS.md): name the source, the publication URL, and the corpus release tag you read.
