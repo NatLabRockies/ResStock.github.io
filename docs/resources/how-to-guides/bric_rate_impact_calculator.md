@@ -21,6 +21,7 @@ This guide covers the workflow, explains how sampling **weights** work in each d
 1. TOC
 {:toc}
 </details>
+{% include collapsible_toc.html %}
 
 ## Before you start
 
