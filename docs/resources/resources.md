@@ -30,6 +30,7 @@ Tutorials provide lessons for understanding certain capabilities and functions o
 These guides provide step-by-step instructions for using a ResStock dataset to answer a given question. Available guides include:
 - [Analyze Your Housing Stock and Different What if Scenarios Using Excel]({{ site.baseurl }}{% link docs/resources/how-to-guides/Housing_Stock_Excel_Questions.md %})
 - [Analyze Your Housing Stock Programmatically]({{ site.baseurl }}{% link docs/resources/how-to-guides/Analyze_housing_stock_programmatically.md %})
+- [Calculate Custom Rates with the BuildStock Rate Impact Calculator]({{ site.baseurl }}{% link docs/resources/how-to-guides/bric_rate_impact_calculator.md %})
 
 ## Explanations
 These documents provide explanations focusing on how and why of the ResStock datasets. This section does not provide explicit advice on how to achieve a specific outcome, but rather focuses on helping users understand specific and important aspects of the datasets. Additional questions or ideas for documentation can be [emailed to us](mailto:resstock@nlr.gov). Explanations are available on the following topics:
